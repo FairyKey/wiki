@@ -1,6 +1,9 @@
 site_name: Fairy Key Wiki
 site_url: http://wiki.fairykey.app
 docs_dir: docs
+repo_name: Fairy Key
+repo_url: https://github.com/FairyKey/FairyKey
+
 nav:
   - Home: index.md
 
@@ -8,6 +11,8 @@ theme:
   name: material
   logo: assets/icon.png
   favicon: assets/favicon.ico
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # dark mode
     - scheme: slate
