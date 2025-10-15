@@ -3,9 +3,7 @@ site_url: https://wiki.fairykey.app
 docs_dir: docs
 repo_name: Fairy Key
 repo_url: https://github.com/FairyKey/FairyKey
-
-nav:
-  - Home: index.md
+edit_uri: https://github.com/FairyKey/wiki/edit/main/docs
 
 theme:
   name: material
@@ -23,13 +21,21 @@ theme:
       accent:
         light blue
 
-        # dark mode
+    # dark mode
     - scheme: default
       toggle:
         icon: material/weather-night
         name: Dark mode
       primary: light blue
       accent: light blue
+      
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.top
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
 
 markdown_extensions:
   - attr_list
@@ -43,3 +49,25 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - pymdownx.details
+  - admonition
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+
+
+nav:
+  - Home: index.md
+  - Getting Started: 
+    - Installation: installation.md
+    - Usage: usage.md
+    - Importing multiple sheets: multipleimport.md
+    - Shortcuts: shortcuts.md
+
+  - Features:
+    - Transposition Detector v2: transpositionv2.md 
+
+  - Developers:
+    - Building: building.md
+
+  - License: licenses.md
