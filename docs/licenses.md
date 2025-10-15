@@ -1,6 +1,8 @@
 # About Licenses
 
-The Fairy Key app itself uses the MIT license. Additionally, Fairy Key uses following third-party packages, which are all under the MIT License:
+The Fairy Key app itself uses the [MIT license](https://raw.githubusercontent.com/FairyKey/FairyKey/refs/heads/main/LICENSE.txt). 
+
+Fairy Key also uses the following third-party packages:
 
 - [MouseKeyHook](https://www.nuget.org/packages/MouseKeyHook/)
 - [MaterialIcons.WPF](https://www.nuget.org/packages/Material.Icons.WPF/)
