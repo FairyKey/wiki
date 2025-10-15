@@ -15,7 +15,7 @@ Fairy Key is a virtual piano sheet reading tool for practicing playing piano usi
 * [Website](https://github.com/FairyKey/website)
 
 ## Getting started
-New to Fairy Key? Check out the [Getting Started](gettingstarted.md) guide!
+New to Fairy Key? Check out the [Installation](installation.md) and [Usage](usage.md) guide!
 
 ## Developers
-Build instructions can be found [here](building.md) as well as in the main repository `README.md` file.
+Build instructions for the Fairy Key app can be found [here](building.md).
