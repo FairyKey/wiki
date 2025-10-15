@@ -9,6 +9,12 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 * `mkdocs build` - Build the documentation site.
 * `mkdocs -h` - Print help message and exit.
 
+```python
+def hello()
+    int big_number = 0
+    return big_number
+```
+
 ## Project layout
 
     mkdocs.yml    # The configuration file.
