@@ -1,23 +1,21 @@
-# Welcome to MkDocs
+# Welcome to the Fairy Key wiki!
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This wiki serves as information and documentation about [Fairy Key](https://fairykey.app) and how to use it's features. 
 
-## Commands
+### About Fairy Key
+Fairy Key is a virtual piano sheet reading tool for practicing playing piano using QWERTY with features such as auto-scroll, note highlighting, a library to organize sheets, and more! 
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Links
+* [Official website](https://fairykey.app)
+* [Wiki](https://wiki.fairykey.app) (this site)
 
-```python
-def hello()
-    int big_number = 0
-    return big_number
-```
+## Repos
+* [Fairy Key](https://github.com/FairyKey/FairyKey)
+* [Wiki](https://github.com/FairyKey/wiki)
+* [Website](https://github.com/FairyKey/website)
 
-## Project layout
+## Getting started
+New to Fairy Key? Check out the [Getting Started](gettingstarted.md) guide!
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Developers
+Build instructions can be found [here](building.md) as well as in the main repository `README.md` file.
